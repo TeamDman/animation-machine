@@ -1,0 +1,26 @@
+animation:
+  duration: 3  # Duration in seconds
+  background:
+    color: white
+    vignette: true
+  objects:
+    - type: circle
+      id: ball1
+      color: grey
+      position:
+        x: -3  # Starting x-position
+        y: 0   # Stacked vertically
+      movement:
+        to_x: 3  # Move to x=3
+        easing: linear
+    - type: circle
+      id: ball2
+      color: grey
+      position:
+        x: -3
+        y: 1.5  # Positioned above ball1 with 10 units margin
+      margin_between: 1.0  # Additional margin between balls
+      movement:
+        to_x: 3
+        easing: linear
+
