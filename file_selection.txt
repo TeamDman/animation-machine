@@ -1,7 +1,2 @@
-version_copy.ps1
-select_files.ps1
-run_latest_direct.ps1
-run_latest.ps1
-animation_scripy.py
-animation.yaml
-media\videos\animation_scripy\1080p60\CustomAnimation.mp4
+animation_script.py
+video_description.txt

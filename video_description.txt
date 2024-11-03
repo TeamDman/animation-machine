@@ -1,4 +1,3 @@
-asd
-exit
-two circles
+two circles, both grey, intersecting, going left to right
+I'd prefer the circles to touch only at their extents
 exit

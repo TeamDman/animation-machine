@@ -1,4 +1,4 @@
-. ./activate_env.ps1
+# . ./activate_env.ps1
 manim -pqh animation_script.py CustomAnimation
 $job_player = Start-Job { mpv .\media\videos\animation_scripy\1080p60\CustomAnimation.mp4 --loop=inf }
 
