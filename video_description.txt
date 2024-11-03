@@ -1,3 +1,2 @@
-two circles, both grey, intersecting, going left to right
-I'd prefer the circles to touch only at their extents
-exit
+two circles moving left to right, light grey on a slightly darker but still light grey background.
+the circles interpolate left to right with an easing function.

@@ -26,7 +26,9 @@ class CustomAnimation(Scene):
         for obj_config in config_data['animation']['objects']:
             # Create objects based on their type
             if obj_config['type'] == 'circle':
-                circle = Circle(color=obj_config['color'], fill_opacity=1)
+                obj_color = obj_config['color']  # Use color string directly
+                radius = obj_config.get('radius', 1)  # Get radius, default to 1
+                circle = Circle(radius=radius, color=obj_color, fill_opacity=1)
                 circle.id = obj_config['id']
                 # Set initial position
                 x = obj_config['position']['x']
@@ -72,4 +74,3 @@ class CustomAnimation(Scene):
             height=config.frame_height
         ).set_fill(BLACK, opacity=0.5).set_stroke(width=0))
         return vignette
-
