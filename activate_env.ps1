@@ -1,0 +1,2 @@
+bonda
+conda activate ./.conda
